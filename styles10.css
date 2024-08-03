@@ -1,0 +1,60 @@
+/* Basic reset and body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('ak.jpg'); 
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+/* Styles for the container */
+.container {
+    position: absolute; /* Positioning the container in the center */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering the container */
+    background: rgba(255, 255, 255, 0.9); /* White background with slight opacity for readability */
+    border-radius: 8px; /* Rounded corners */
+    padding: 50px; /* Padding around content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow for better visibility */
+    width: 300px; /* Fixed width for the container */
+}
+
+/* Styles for form elements */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db; /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+/* Styles for the message */
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red; /* Error message color */
+}
